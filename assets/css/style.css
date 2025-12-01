@@ -190,3 +190,9 @@ body {
 .footer-links a:hover {
     text-decoration: underline;
 }
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.4;
+    cursor: not-allowed;
+}
